@@ -10,6 +10,6 @@ print (famous_person_2 + message)
 article = "\nHe, "
 famous_person_2 = "    Justin Bieber has NOT   "
 print (article + famous_person_2 + message)
-print (article + famous_person_2.strip() + message)
-print (article + famous_person_2.lstrip() + message)
-print (article + famous_person_2.rstrip() + message)
+print (article + famous_person_2.strip().title() + message)
+print (article + famous_person_2.lstrip().upper() + message)
+print (article + famous_person_2.rstrip().lower() + message)
