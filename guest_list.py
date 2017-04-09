@@ -100,7 +100,37 @@ guest_list.append('morty')
 guest_list.append('enrique iglesias')
 print (guest_list)
 print (len(guest_list))
-list_message = "Tonight I'm inviting "
+
+#3-9 print message with len number
+list_message = "\nTonight I'm inviting "
 list_message2 = " guests to dinner."
-guest_number = len(guest_list)
-print (list_message + (len(guest_list)) + list_message2)
+print (list_message, len(guest_list), list_message2)
+
+#3-10
+cities = ['sydney', 'montreal', 'mexico city', 'cape town', 'moscow', 'london']
+print (cities)
+print (sorted(cities))
+print (sorted(cities, reverse=True))
+print (cities)
+cities.reverse()
+print (cities)
+cities.reverse()
+print (cities)
+cities.sort()
+print (cities)
+cities.sort(reverse=True)
+print (cities)
+
+del cities[1]
+print (cities)
+
+cities.insert(1, 'paris')
+print (cities)
+cities.append('barcelona')
+print (cities)
+print ("The city I most recently added to my plans is " + cities[-1].title() + ".")
+no_go = cities.pop(-2)
+print ("I won't make it to " + no_go.title() + " anytime soon :(")
+no_go2 = 'sydney'
+cities.remove(no_go2)
+print ("Also " + no_go2.title() + " is a bit too far...")
