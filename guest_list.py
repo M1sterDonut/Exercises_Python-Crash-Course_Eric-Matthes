@@ -92,3 +92,15 @@ print (still_invited1 + guest_list[1].title() + still_invited2)
 del guest_list[0]
 del guest_list[0]
 print (guest_list)
+
+print (len(guest_list))
+guest_list = ['the dread pirate roberts', 'ragnar lothbrok', 'heath ledger', 'jimi hendrix']
+guest_list.append('rick')
+guest_list.append('morty')
+guest_list.append('enrique iglesias')
+print (guest_list)
+print (len(guest_list))
+list_message = "Tonight I'm inviting "
+list_message2 = " guests to dinner."
+guest_number = len(guest_list)
+print (list_message + (len(guest_list)) + list_message2)
