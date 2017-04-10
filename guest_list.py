@@ -148,3 +148,4 @@ cities.remove(no_go2)
 print ("Also " + no_go2.title() + " is a bit too far...")
 
 print (len (cities))
+print ("There are ", len(cities), " cities on my list.")
