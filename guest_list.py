@@ -107,17 +107,29 @@ list_message2 = " guests to dinner."
 print (list_message, len(guest_list), list_message2)
 
 #3-10
+#random cities
 cities = ['sydney', 'montreal', 'mexico city', 'cape town', 'moscow', 'london']
 print (cities)
+
+#temp. alph. sort
 print (sorted(cities))
+#temp. alph. rev. sort
 print (sorted(cities, reverse=True))
 print (cities)
+
+#perm. rev. sort
 cities.reverse()
 print (cities)
+
+#perm. rev. rev. sort
 cities.reverse()
 print (cities)
+
+#perm. alph. sort
 cities.sort()
 print (cities)
+
+#perm. alph. rev. sort
 cities.sort(reverse=True)
 print (cities)
 
@@ -134,3 +146,5 @@ print ("I won't make it to " + no_go.title() + " anytime soon :(")
 no_go2 = 'sydney'
 cities.remove(no_go2)
 print ("Also " + no_go2.title() + " is a bit too far...")
+
+print (len (cities))
