@@ -4,5 +4,9 @@ for value in range(1,50):
 for value in range(1,51):
 	print (value)
 
-for value in range(1,2000001):
+for value in range(1,200):
 	print (value)
+
+#Using range() to Make a List of Numbers
+numbers = list(range(1,2001))
+print (numbers)
