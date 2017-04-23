@@ -40,3 +40,17 @@ print(my_foods)
 
 print ("\nMy friend's favourite foods are:")
 print (friend_foods)
+
+#4-10 slices
+print ("The first three items in the list are:")
+#nicer print
+for food in my_foods [0:3]:
+	print (food.title())
+
+print ("\nThree items from the middle of the list are:")
+for food in my_foods [1:4]:
+	print (food.title())
+
+print ("\nThe last three items in the list are:")
+for food in my_foods [-3:]:
+	print (food.title())
