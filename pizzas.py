@@ -25,3 +25,14 @@ for pizza in pizzas [-3:]:
 
 pizzas = ['pizza funghi', 'pizza hawaii', 'pizza parma']
 friend_pizzas = pizzas [:]
+
+pizzas.append('pizza diavolo')
+friend_pizzas.append('pizza tonno')
+
+print ("\nMy favourite pizzas are:")
+for pizza in pizzas:
+	print(pizza.title())
+
+print ("\nMy friend's favourite pizzas are:")
+for friend_pizza in friend_pizzas:
+	print (friend_pizza.title())
