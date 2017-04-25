@@ -20,3 +20,8 @@ for pizza in pizzas [1:4]:
 print ("\nThe last three pizzas in the list are:")
 for pizza in pizzas [-3:]:
 	print (pizza.title())
+
+#"pizza slices"
+
+pizzas = ['pizza funghi', 'pizza hawaii', 'pizza parma']
+friend_pizzas = pizzas [:]
