@@ -7,8 +7,14 @@ for car in cars:
 		print (car.title())
 
 car = 'bmw'
-car == 'bmw'
+print (car == 'bmw')
 
 car = 'Audi'
 car.lower() == 'audi'
-car 
+
+car = 'subaru'
+print ("\nIs car == 'subaru'? I predict True.")
+print (car == 'subaru')
+
+print ("\nIs car == 'audi'? I predict False.")
+print (car == 'audi')
