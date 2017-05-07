@@ -33,3 +33,20 @@ else:
 
 #to be continued
 
+couch = 'large and comfortable'
+print ("\nIs the couch large and comfortable?")
+print (couch == 'large and comfortable')
+
+print ("\nIs the couch small and comfortable?")
+print (couch == 'small and comfortable')
+
+name = 'James'
+print ("\nIs his name James?")
+print (name.lower() == 'james')
+
+print ("\nIs his name Brian?")
+print (name.lower() == 'brian')
+
+friends_at_party = 13
+print ("\nAre there 13 friends?")
+print (friends_at_party == 13)
