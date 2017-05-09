@@ -18,3 +18,8 @@ print (car == 'subaru')
 
 print ("\nIs car == 'audi'? I predict False.")
 print (car == 'audi')
+
+print ('bmw' in cars)
+
+if 'susuki' not in cars:
+	print ("Don't have that one")
