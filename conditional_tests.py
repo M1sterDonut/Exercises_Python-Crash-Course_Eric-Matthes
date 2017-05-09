@@ -31,7 +31,7 @@ if shop != 'busy':
 else: 
 	print ("Look at all these people!")
 
-#to be continued
+#5-2 more conditional tests
 
 couch = 'large and comfortable'
 print ("\nIs the couch large and comfortable?")
@@ -50,3 +50,30 @@ print (name.lower() == 'brian')
 friends_at_party = 13
 print ("\nAre there 13 friends?")
 print (friends_at_party == 13)
+print ("\nAre there 15 guests or less?")
+print (friends_at_party <= 15)
+print ("\nAre there more than 13 guests?")
+print (friends_at_party > 13)
+
+shopping_list = ['tuna', 'bread', 'yoghurt']
+print ("\nHave you remembered the bread?")
+if 'bread' in shopping_list:
+	print ("Yeah, got it.")
+else:
+	print ("Oh shoot, let me add that.")
+
+print ("\nHave you remembered the tuna?")
+if 'tuna' in shopping_list:
+	print ("Yeah, got it.")
+else:
+	print ("Oh shoot, let me add that.")
+
+print ("\nHave you remembered the peas?")
+if 'peas' in shopping_list:
+	print ("Yeah, got it.")
+else:
+	print ("Oh shoot, let me add that.")
+
+
+
+
